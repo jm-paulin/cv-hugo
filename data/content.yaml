@@ -1,0 +1,216 @@
+BasicInfo:
+  FirstName: Jean-Marc
+  LastName: Paulin
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +44 7958 595651
+    - Icon: fas fa-envelope
+      Info: jm@paulin.co.uk
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://ines-almeida.com" target="_blank">ines-almeida.com</a>
+    - Icon: fas fa-map-marker-alt
+      Info: London / England
+
+Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Experience:
+  - Employer: IBM
+    Place: London, UK
+    Positions:
+      - Title: Senior Software Engineer / Technical Leader
+        Date: July 2022 - Present
+        Description: >
+          The microservice at the heart of the architecture is based on Apache Flink and processing a vast amount 
+          of events in real time. I am the lead developer driving improvement in both performance and robustness. I also 
+          assist customer facing dificulties.
+        Details:
+          - Design and implement new functionalities to support new uses cases.
+          - Ensure constant compliance with security requirement.
+          - Develop tools around our solution to help investigating issues.
+          - Implements required changes in the relevant Kubernetes Operators
+        Badges: ['Java', 'Flink', 'Kafka', 'Cassandra','Kubernetes','Jenkins','Go']
+
+      - Title: Senior Software Engineer / Architect
+        Date: July 2021 - June 2022
+        Description: >
+          A crucial customer required an integration of our legacy products migrated to kubernetes 
+          with their own SAML Identity Provider. I was in charge of driving the tactical changes required
+          to deliver this capability within our cloud product 
+        Details:
+          - Design and implement the changes required to support this new scenario.
+          - Ensure the solution did not affect any existing customers and functionalities
+          - Assist the customer deploying the solution in Test and Production environment
+        Badges: ['Java', 'LDAP', 'SAML', 'OAuth','Kubernetes']
+
+      - Title: Senior Software Engineer / Architect
+        Date: Jan 2020 - June 2021
+        Description: >
+          RedHat OpenShift is our main target. But some of our customers are already invested in other Kubernetes platforms. 
+          My role as Technical Leader was to make sure our core cloud product can also be deployed on more generic Kubernetes 
+          platforms such as Rancher or Kubeadm. As part of a small 3 person team we:
+        Details:
+        - > 
+          Developed ansible scripts to deploy kubeadm based cluster for verification testing. 
+          This included provisioning nodes from our internal cloud services, configuring reverse proxy, bastion hosting.
+        - > 
+          Implemented changes in our core charts to enable Ingress (specifically ingress-nginx). Openshift is using the alternative concept of Routes.
+        - >
+          Defined and rolled out a common strategy across our various development teams to secure TLS connection within the cluster, 
+          but not using a certificate manager as to not impose a technical solution for our customers.
+        - Implemented CI/CD dedicated pipeline with Jenkins.
+        - Directly supported multiple Proof-of-Concept projects with various customers.
+        Badges: ['Python', 'Bash', 'Kubernetes','Jenkins']
+
+      - Title: Senior Software Engineer / Technical Leader
+        Date: Jul 2018 - Dec 2019
+        Description: >
+          Existing customers do not want to lose their existing
+          Netcool investment, but still want to use our new cloud analytics capabilities. 
+          As part of this we had to not only rework our deployment to allow connectivity 
+          with an existing on-prem infrastructure, but also find an acceptable single sign-on 
+          solution to authenticate our cloud services with the existing customer SSO solution. 
+          We put a small team together to find a solution that was articulated around OAuth 
+          with existing customer WebSphere Application Server (WAS) instance. As a team, we:
+        Details:
+        - > 
+          Implemented a J2EE servlet to deploy in WAS in order to report to our cloud services user roles and authorization.
+        - Developed installation scripts to configure OAuth on WAS, as well as the J2EE servlet above.
+        - >
+          Changed the authentication flow within our cloud solution to use a WAS configured OAuth as part 
+          of the authentication flow. This was solved by the development of a new cloud side service that essentially 
+          proxy authentication to pluggable sources. This way although we target WAS OAuth, we could eventually reconfigure 
+          to alternative authentication sources if we need to. 
+        - Implemented verification CI/CD pipeline in Jenkins, with scripts to deploy both on-prems side as well as the cloud side. 
+        - Evangelized TLS and how to use openssl to secure correctly all the end-points. This was probably the most underestimated part of this project.
+        - Ran technical deep-dive sessions with our support department and customers
+        Badges: ['Python', 'Bash', 'Agile','Kubernetes','Jenkins','Zenhub']
+
+      - Title: Senior Software Engineer / Architect
+        Date: Jan 2017 - Jun 2018
+        Description: >
+          As Kubernetes based environments rise in popularity, could our existing 
+          and well tested on-premises product benefit from this new environment? 
+          I defined the initial architecture and tried to define boundaries of this broad mission. 
+          I then lead a team of 10 people to roll out this implementation. We then integrated all 
+          this with a new set of cloud native analytics components developed by another team. 
+          I lead and supervised:
+        Details:
+        - > 
+          Implementation of CI/CD pipeline in Jenkins to generate containers from our existing products.
+        - Ensured security compliance for all our containers.
+        - Implemented associated helm chart for deployments.
+        - Preserved configurability of our products with configmaps.
+        - Defined Storage to ensure data persistence between restarts.
+        - Demonstrated Rolling update.
+        - Cloud Pak Certification through IBM processes.
+        - Demonstrations at the Netcool User Group conference.
+        - Supported our technical services running training sessions for customers and business partners.
+        Badges: ['Python', 'Bash', 'Agile','Kubernetes','Jenkins']
+  
+      - Title: Senior Software Engineer / Architect
+        Date: Jan 2020 - June 2021
+        Description: >
+          Blah blah blah...
+        Details:
+        - > 
+          Blah blah blah...
+        Badges: ['Python', 'Bash', 'Agile','Kubernetes','Jenkins']
+
+  - Employer: Another super cool company
+    Place: Lisbon, PT
+    Positions:
+      - Title: Flow Cytometry Resource Specialist
+        Date: Jan 2018 - Mar 2019
+        Details:
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+  - Employer: Institute of Neural Engineering
+    Place: Graz, AT
+    Class: "experience__extra_padding"
+    Positions:
+      - Title: Master's Thesis Research Intern
+        Date: Oct 2016 - Jun 2017
+        Details:
+          - Arcu vitae elementum curabitur vitae nunc sed velit
+          - Viverra aliquet eget sit amet tellus cras adipiscing
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+
+Education:
+  - Course: 
+    Place: Ecole Nationale d’Ingénieur de Belfort, France  
+    Date: Sep 1985 - June 1988
+    Details: Industrial Production and Robotic
+
+References:
+  - Name: Person One
+    Relation: Co-worker at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 790
+    - Icon: fas fa-envelope
+      Info: contact@person-one.com
+    - Icon: fas fa-map-marker-alt
+      Info: Melbourne, Australia
+  - Name: Person Two
+    Relation: Boss at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 791
+    - Icon: fas fa-envelope
+      Info: contact@person-two.com
+    - Icon: fas fa-map-marker-alt
+      Info: Sydney, Australia
+
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - HTML (including Jinja)
+      - Javascript
+      - CSS
+      - SASS
+      - SQL
+      - C#
+      - Bash
+      - MATLAB
+  - Family: Frameworks
+    Items:
+      - Django
+      - Flask
+      - Hugo
+      - React
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - Jenkins
+      - AWS
+  - Family: Misc
+    Items:
+      - Adobe Tools
+      - LaTeX
+
+Languages:
+  - Name: French
+    Level: Native
+  - Name: English
+    Level: Fluent
+
+Diplomas:
+  - ISTQB Tester Certification (2019)
+  - English Cambridge CAE (2009)
+
+Interests:
+  - Bouldering
+  - Cooking
+  - Windsurfing
+  - Bossa Nova
+  - Design
+  - Languages
