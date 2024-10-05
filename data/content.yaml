@@ -12,7 +12,10 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: London / England
 
-Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Profile: > 
+  My 20-year career in software development has equipped me with a versatile skillset, encompassing team leadership, 
+  project management, and technical expertise. I'm confident in my ability to architect, design and implement scalable
+  systems running on any platform from bare metal server to kubernetes based cloud services.  
 
 Experience:
   - Employer: IBM
