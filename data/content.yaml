@@ -96,8 +96,7 @@ Experience:
           and well tested on-premises product benefit from this new environment? 
           I defined the initial architecture and tried to define boundaries of this broad mission. 
           I then lead a team of 10 people to roll out this implementation. We then integrated all 
-          this with a new set of cloud native analytics components developed by another team. 
-          I lead and supervised:
+          this with a new set of cloud native analytics components developed by another team.
         Details:
         - > 
           Implementation of CI/CD pipeline in Jenkins to generate containers from our existing products.
@@ -109,40 +108,76 @@ Experience:
         - Cloud Pak Certification through IBM processes.
         - Demonstrations at the Netcool User Group conference.
         - Supported our technical services running training sessions for customers and business partners.
-        Badges: ['Python', 'Bash', 'Agile','Kubernetes','Jenkins']
+        Badges: ['Python', 'Bash', 'Agile','Kubernetes','Docker','Helm','Jenkins']
   
-      - Title: Senior Software Engineer / Architect
-        Date: Jan 2020 - June 2021
+      - Title: Senior Software Engineer
+        Date: Jan 2016 - Dec 2016
         Description: >
-          Blah blah blah...
+          Define and secure Cassandra services on IBM Cloud. One of our new service API was about 
+          to be deployed on various IBM datacenters across the world and I had to evaluate and implement 
+          a solution to ensure high availability across datacenters within a given geo. The main challenge 
+          as part of this was the high level of scrutiny, as you would expect for anything hosted on a 
+          public cloud and that is potentially customer facing. Security is of course the main concern, 
+          and vulnerability exposure must be kept to the bare minimum at all time. I was the technical 
+          lead for a small team that:
+        Details:
+        - Evaluated multiple technical solution to finally settle on a Cisco Netscaler based solution
+        - Developed ansible and python script to provision and configure Netscaler as part of a CI/CD pipeline owned by the cloud deployment infrastructure team.
+        - Extended ansible script to secure provisioned hosting servers.
+        - Added and verified automated data backup connected to S3 like storage to services.
+        Badges: ['Python', 'Ansible', 'Cassandra','Cisco Netscaler','IBM Cloud','Jenkins']
+
+      - Title: Senior Deployment Engineer
+        Date: 2008 - 2016
+        Description: >
+          IBM Installation Manager was the preferred technology for installing IBM Software. 
+          I was driving the adoption of IBM Installation Manager through the products of the 
+          Tivoli brand. I was also leading a remote team of two other engineers. And as a team,
+          we delivered on:
         Details:
         - > 
-          Blah blah blah...
-        Badges: ['Python', 'Bash', 'Agile','Kubernetes','Jenkins']
+          Identified and implemented missing features with eclipse plugins. 
+          This involved consultation with other brands to ensure any new features do not affect anyone else.
+        - Supported teams with architecture and design guidance for their installation.
+        - Educated various product team members on the technology. This could be through videos, 1-1 sessions, wiki, hands-on guides, forums...
+        - I also organized, trained and lead the Jazz for Service Management installer team. 
+        Badges: ['Java','Eclipse']
+  
+  - Employer: Micromuse (aquired by IBM)
+    Place: London, UK
+    Positions:
+      - Title: Senior Software Engineer
+        Date: 2001 - 2007
+        Description: >
+          Senior member of the Netcool software development team. Some significant achievements:
+        Details:
+        - Lead the common team in charge of the common UI experience across Netcool products, based on Tomcat/Jetspeed.
+        - Architect and Lead the implementation then rollout of a common installer technology across Netcool products.
+        - >
+          Design, implementation of a Transaction Recorder, that would record https transactions to then replay from 
+          various server to monitor service availability from across the world. Recording implemented in C++/MFC/COM on windows, 
+          playback on various server Unix or windows. Patent granted.
+        - Lead the “Blue Washing” of our common components following the IBM acquisition.
+        Badges: ['C/C++', 'Java/J2EE','Linux']
 
-  - Employer: Another super cool company
-    Place: Lisbon, PT
+  - Employer: InstallShield
+    Place: UK / US
     Positions:
-      - Title: Flow Cytometry Resource Specialist
-        Date: Jan 2018 - Mar 2019
-        Details:
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
-  - Employer: Institute of Neural Engineering
-    Place: Graz, AT
-    Class: "experience__extra_padding"
+      - Title: InstallShield Consultant
+        Date: 2000 - 2001
+        Description: >
+          Part of the InstallShied consulting team, I was responsible for helping our European customers to provide a 
+          successful install experience to everyone.
+        Badges: ['C/C++', 'MSI', 'Java']
+
+  - Employer: Cegelec
+    Place: France / UK
     Positions:
-      - Title: Master's Thesis Research Intern
-        Date: Oct 2016 - Jun 2017
-        Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+      - Title: Software Engineer
+        Date: 1988 - 2000
+        Description: >
+          Software developments on Windows and OS/2 as part of the PLC workbench team.
+        Badges: ['C/C++']
 
 Education:
   - Course: 
@@ -150,55 +185,45 @@ Education:
     Date: Sep 1985 - June 1988
     Details: Industrial Production and Robotic
 
-References:
-  - Name: Person One
-    Relation: Co-worker at Super Cool Company
-    Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 790
-    - Icon: fas fa-envelope
-      Info: contact@person-one.com
-    - Icon: fas fa-map-marker-alt
-      Info: Melbourne, Australia
-  - Name: Person Two
-    Relation: Boss at Super Cool Company
-    Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 791
-    - Icon: fas fa-envelope
-      Info: contact@person-two.com
-    - Icon: fas fa-map-marker-alt
-      Info: Sydney, Australia
+# References:
+#   - Name: Person One
+#     Relation: Co-worker at IBM
+#     Contacts:
+#     - Icon: fas fa-phone
+#       Info: +44 123 456 790
+#     - Icon: fas fa-envelope
+#       Info: contact@person-one.com
+#     - Icon: fas fa-map-marker-alt
+#       Info: Melbourne, Australia
+#   - Name: Person Two
+#     Relation: Boss at IBM
+#     Contacts:
+#     - Icon: fas fa-phone
+#       Info: +44 123 456 791
+#     - Icon: fas fa-envelope
+#       Info: contact@person-two.com
+#     - Icon: fas fa-map-marker-alt
+#       Info: Sydney, Australia
 
 
 Skills:
   - Family: Programming
     Items:
+      - Java
       - Python
-      - HTML (including Jinja)
-      - Javascript
-      - CSS
-      - SASS
-      - SQL
-      - C#
       - Bash
-      - MATLAB
-  - Family: Frameworks
+      - C/C++
+      - Go
+  - Family: Environments
     Items:
-      - Django
-      - Flask
-      - Hugo
-      - React
-  - Family: Developer Tools
-    Items:
-      - Git
+      - Helm
+      - Kubernetes
       - Docker
+      - Linux
+      - Windows
+      - Flink
       - Jenkins
-      - AWS
-  - Family: Misc
-    Items:
-      - Adobe Tools
-      - LaTeX
+      - Travis
 
 Languages:
   - Name: French
@@ -206,14 +231,14 @@ Languages:
   - Name: English
     Level: Fluent
 
-Diplomas:
+Patents:
   - ISTQB Tester Certification (2019)
   - English Cambridge CAE (2009)
 
-Interests:
-  - Bouldering
-  - Cooking
-  - Windsurfing
-  - Bossa Nova
-  - Design
-  - Languages
+# Interests:
+#   - Bouldering
+#   - Cooking
+#   - Windsurfing
+#   - Bossa Nova
+#   - Design
+#   - Languages
