@@ -21,7 +21,7 @@ Experience:
   - Employer: IBM
     Place: London, UK
     Positions:
-      - Title: Senior Software Engineer / Technical Leader / Architect
+      - Title: Senior Software Engineer / Leader / Architect
         Date: 2017 - Present
         Description: >
           As a seasoned software architect and team leader, I have successfully led multiple migrations to Kubernetes. 
@@ -36,7 +36,7 @@ Experience:
         - Lead the team that delivered a deployment of our native Netcool applications to Kubernetes. Implemented the CI/CD pipelines as well as compliance and internal cloud certification.
         - Architected and implemented the deployment and configuration of our Cassandra database on Public cloud behind a Cisco Netscaler using Ansible.
         - Developed numerous tools in order to support our development mission.
-        Badges: ['Python','Java','Flink','Kubernetes','Docker','Jenkins', 'Ansible', 'Cassandra','Cisco Netscaler','IBM Cloud']
+        Badges: ['Python','Java','Flink','Kubernetes','Docker','Kafka','Jenkins','Ansible']
 
       - Title: Senior Deployment Engineer
         Date: 2008 - 2016
