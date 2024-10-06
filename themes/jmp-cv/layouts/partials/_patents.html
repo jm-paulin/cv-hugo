@@ -7,7 +7,7 @@
         <ul>
             {{ range .Patents }}
             <li>
-            {{ .Number | safeHTML}}: {{ .Title | safeHTML }}
+            <i>{{ .Number | safeHTML}}</i>: {{ .Title | safeHTML }}
             </li>
             {{ end }}
         </ul>

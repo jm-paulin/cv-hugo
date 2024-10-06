@@ -27,15 +27,15 @@ Experience:
           As a seasoned software architect and team leader, I have successfully led multiple migrations to Kubernetes. 
           With a deep understanding of authentication, security, and compliance, I specialize in designing and implementing scalable, 
           cloud-native architectures. My expertise includes leveraging CI/CD pipelines (Jenkins, Python, Ansible, Bash), developing 
-          custom Kubernetes operators (Helm, Go), and coding in languages like Python, Java, Go, and sometimes even Node.js. Throughout the 
-          last 8 years, I've driven major projects to transition customers to the cloud, ensuring a seamless and secure migration process.       
+          custom Kubernetes operators (Helm, Go), and coding in languages like Python, Java, Go, or Node.js. Throughout the 
+          last 8 years, I've driven major projects to transition customers to the cloud, ensuring a seamless and secure migration process.
         Details:
-        - Improve and extend an event processing engine based on Apache FLink, with focus on performance, robustness, and serviceability.
-        - Designed and implement a tactical change to our legacy product running in a cloud environment to integrate with customer IdP such as SAML or OIDC.
+        - Improve and extend an event processing engine based on Apache Flink, with focus on performance, robustness, and serviceability.
+        - Designed and implemented a tactical change to our legacy product running in a cloud environment to integrate with customer's identity provider such as SAML or OIDC.
         - Architected a Hybrid solution to integrate our cloud native services with our existing legacy product running on premises, including single sign-on.
         - Lead the team that delivered a deployment of our native Netcool applications to Kubernetes. Implemented the CI/CD pipelines as well as compliance and internal cloud certification.
         - Architected and implemented the deployment and configuration of our Cassandra database on Public cloud behind a Cisco Netscaler using Ansible.
-        - Developed numerous tools in order to support our development mission.
+        - Developed numerous tools to support our development mission.
         Badges: ['Python','Java','Flink','Kubernetes','Docker','Kafka','Jenkins','Ansible']
 
       - Title: Senior Deployment Engineer
@@ -44,7 +44,7 @@ Experience:
           IBM Installation Manager was the preferred technology for installing IBM Software. 
           I was driving the adoption of IBM Installation Manager through the products of the 
           Tivoli brand. I was also leading a remote team of two other engineers. And as a team,
-          we delivered on:
+          we:
         Details:
         - > 
           Identified and implemented missing features with eclipse plugins. 
@@ -96,27 +96,6 @@ Education:
     Date: Sep 1985 - June 1988
     Details: Industrial Production and Robotic
 
-# References:
-#   - Name: Person One
-#     Relation: Co-worker at IBM
-#     Contacts:
-#     - Icon: fas fa-phone
-#       Info: +44 123 456 790
-#     - Icon: fas fa-envelope
-#       Info: contact@person-one.com
-#     - Icon: fas fa-map-marker-alt
-#       Info: Melbourne, Australia
-#   - Name: Person Two
-#     Relation: Boss at IBM
-#     Contacts:
-#     - Icon: fas fa-phone
-#       Info: +44 123 456 791
-#     - Icon: fas fa-envelope
-#       Info: contact@person-two.com
-#     - Icon: fas fa-map-marker-alt
-#       Info: Sydney, Australia
-
-
 Skills:
   - Family: Programming
     Items:
@@ -124,7 +103,6 @@ Skills:
       - Python
       - Bash
       - C/C++
-      - Go
   - Family: Environments
     Items:
       - Helm
