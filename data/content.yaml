@@ -20,6 +20,12 @@ Profile: >
 Experience:
   - Employer: IBM
     Place: London, UK
+    Introduction: >
+      As a seasoned software architect and team leader, I have successfully led multiple migrations to Kubernetes. 
+      With a deep understanding of authentication, security, and compliance, I specialize in designing and implementing scalable, 
+      cloud-native architectures. My expertise includes leveraging CI/CD pipelines (Jenkins, Python, Ansible, Bash), developing 
+      custom Kubernetes operators (Helm, Go), and coding in languages like Python, Java, Go, and sometimes even Node.js. Throughout the 
+      last 8 years, I've driven major projects to transition customers to the cloud, ensuring a seamless and secure migration process.
     Positions:
       - Title: Senior Software Engineer / Technical Leader
         Date: July 2022 - Present
@@ -232,8 +238,12 @@ Languages:
     Level: Fluent
 
 Patents:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
+  - Title: Smart rebinding for live product install
+    Number: US 8,782,630
+    Link: 'https://ppubs.uspto.gov/pubwebapp/static/pages/ppubsbasic.html'
+  - Title: System and method for transaction recording and playback
+    Number: US 7,363,368
+    Link: 'https://ppubs.uspto.gov/pubwebapp/static/pages/ppubsbasic.html'
 
 # Interests:
 #   - Bouldering

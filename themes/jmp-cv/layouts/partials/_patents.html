@@ -6,7 +6,9 @@
     <div class="sideSection__content">
         <ul>
             {{ range .Patents }}
-            <li>{{ . | safeHTML }}</li>
+            <li>
+            {{ .Number | safeHTML}}: {{ .Title | safeHTML }}
+            </li>
             {{ end }}
         </ul>
     </div>

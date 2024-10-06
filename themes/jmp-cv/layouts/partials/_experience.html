@@ -17,6 +17,11 @@
                     </h3>
                     <h3 class="experience__place">{{ .Place | safeHTML }}</h3>
                 </div>
+                {{ if .Introduction }}
+                <div class="experience__introduction">
+                    {{ .Introduction | safeHTML }}
+                </div>
+                {{ end }}
                 {{ range .Positions }}
                 <div class="experience__job">
                     <div class="experience__subheader">
