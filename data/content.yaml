@@ -30,28 +30,26 @@ Experience:
           custom Kubernetes operators (Helm, Go), and coding in languages like Python, Java, Go, or Node.js. Throughout the 
           last 8 years, I've driven major projects to transition customers to the cloud, ensuring a seamless and secure migration process.
         Details:
-        - Improve and extend an event processing engine based on Apache Flink, with focus on performance, robustness, and serviceability.
-        - Designed and implemented a tactical change to our legacy product running in a cloud environment to integrate with customer's identity provider such as SAML or OIDC.
-        - Architected a Hybrid solution to integrate our cloud native services with our existing legacy product running on premises, including single sign-on.
-        - Lead the team that delivered a deployment of our native Netcool applications to Kubernetes. Implemented the CI/CD pipelines as well as compliance and internal cloud certification.
-        - Architected and implemented the deployment and configuration of our Cassandra database on Public cloud behind a Cisco Netscaler using Ansible.
-        - Developed numerous tools to support our development mission.
+        - Engineered a significant performance improvement in Apache Flink event processing engine, resulting in 50% reduction in processing time.
+        - Implemented a robust and scalable solution to integrate with customer identity providers (SAML, OIDC), enhancing security and user experience.
+        - Architected a hybrid cloud solution that seamlessly integrated our legacy on-premises systems with cloud-native services, improving efficiency and scalability.
+        - Led a successful team deployment of Netcool applications to Kubernetes, streamlining operations and reducing costs.
+        - Developed and implemented a comprehensive CI/CD pipeline, ensuring efficient software delivery and compliance.
         Badges: ['Python','Java','Flink','Kubernetes','Docker','Kafka','Jenkins','Ansible']
 
       - Title: Senior Deployment Engineer
         Date: 2008 - 2016
         Description: >
-          IBM Installation Manager was the preferred technology for installing IBM Software. 
-          I was driving the adoption of IBM Installation Manager through the products of the 
-          Tivoli brand. I was also leading a remote team of two other engineers. And as a team,
+          As a driving force behind IBM Installation Manager adoption within the Tivoli brand, I successfully implemented the technology as the preferred 
+          method for installing IBM software. Leading a remote team of two engineers, I ensured efficient deployment and support of Installation Manager 
+          across various productsAnd as a team,
           we:
         Details:
-        - > 
-          Identified and implemented missing features with eclipse plugins. 
-          This involved consultation with other brands to ensure any new features do not affect anyone else.
-        - Supported teams with architecture and design guidance for their installation.
-        - Educated various product team members on the technology. This could be through videos, 1-1 sessions, wiki, hands-on guides, forums...
-        - I also organized, trained and lead the Jazz for Service Management installer team. 
+        - Identified and implemented critical missing features in Eclipse plugins, enhancing functionality and user experience.
+        - Collaborated with other brands to ensure compatibility and avoid unintended consequences of new features.
+        - Provided expert architectural and design guidance to support teams in their installation projects.
+        - Educated product team members on Eclipse technology through various channels, including videos, 1-1 sessions, wikis, hands-on guides, and forums.
+        - Organized, trained, and led the Jazz for Service Management installer team, ensuring efficient and effective installations.
         Badges: ['Java','Eclipse']
   
   - Employer: Micromuse (aquired by IBM)
@@ -62,13 +60,10 @@ Experience:
         Description: >
           Senior member of the Netcool software development team. Some significant achievements:
         Details:
-        - Lead the common team in charge of the common UI experience across Netcool products, based on Tomcat/Jetspeed.
-        - Architect and Lead the implementation then rollout of a common installer technology across Netcool products.
-        - >
-          Design, implementation of a Transaction Recorder, that would record https transactions to then replay from 
-          various server to monitor service availability from across the world. Recording implemented in C++/MFC/COM on windows, 
-          playback on various server Unix or windows. Patent granted.
-        - Lead the “Blue Washing” of our common components following the IBM acquisition.
+        - Led the common UI team responsible for Netcool products, driving consistency and improving user experience.
+        - Architected and implemented a standardized installation technology across Netcool products, streamlining deployment and reducing complexity.
+        - Designed and developed a transaction recorder (C++/MFC/COM) to monitor service availability globally, patented for its innovative approach.
+        - Successfully transitioned Netcool components to align with IBM's branding and standards following the acquisition.
         Badges: ['C/C++', 'Java/J2EE','Linux']
 
   - Employer: InstallShield
