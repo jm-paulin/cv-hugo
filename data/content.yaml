@@ -8,7 +8,7 @@ BasicInfo:
     - Icon: fas fa-envelope
       Info: jm@paulin.co.uk
     - Icon: fas fa-globe
-      Info: <a class="contact__link" href="https://paulin.co.uk" target="_blank">paulin.co.uk</a>
+      Info: <a class="contact__link" href="https://jean-marc.paulin.co.uk" target="_blank">https://jean-marc.paulin.co.uk</a>
     - Icon: fas fa-map-marker-alt
       Info: London / England
 
