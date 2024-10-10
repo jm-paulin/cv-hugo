@@ -1,5 +1,5 @@
 FROM ubuntu AS build
-ARG BASE_URL=https://paulin.co.uk/
+ARG BASE_URL=https://jean-marc.paulin.co.uk/
 RUN apt-get update && apt-get install -y wget unzip
     
 ARG HUGO_VERSION="0.134.2"
