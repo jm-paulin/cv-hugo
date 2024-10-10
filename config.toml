@@ -6,7 +6,7 @@ enableEmoji = true
 theme = "jmp-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-baseURL = "https://example.com/"
+baseURL = "https://jean-marc.paulin.co.uk/"
 title = "Jean-Marc Paulin - CV"
 #googleAnalytics = ""
 
