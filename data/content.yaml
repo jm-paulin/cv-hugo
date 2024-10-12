@@ -6,7 +6,9 @@ BasicInfo:
     - Icon: fas fa-phone
       Info: +44 7958 594651
     - Icon: fas fa-envelope
-      Info: jm@paulin.co.uk
+      Info: <a class="contact__link" href="mailto:jm@paulin.co.uk" target="_blank">jm@paulin.co.uk</a>
+    - Icon: fab fa-linkedin
+      Info: <a class="contact__link" href="https://www.linkedin.com/in/jeanmarcpaulin/" target="_blank">jeanmarcpaulin</a>
     - Icon: fas fa-globe
       Info: <a class="contact__link" href="https://jean-marc.paulin.co.uk" target="_blank">https://jean-marc.paulin.co.uk</a>
     - Icon: fas fa-map-marker-alt
